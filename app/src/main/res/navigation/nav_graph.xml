@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMusicSelect">
+
+    <fragment
+        android:id="@+id/fragmentMusicSelect"
+        android:name="com.rgssdeveloper.relaxamento.fragments.MusicSelectFragment"
+        android:label="fragment_music_select"
+        tools:layout="@layout/fragment_music_select" >
+        <action
+            android:id="@+id/action_fragmentMusicSelect_to_fragmentMusicPlay"
+            app:destination="@id/fragmentMusicPlay"
+            app:popUpTo="@id/fragmentMusicSelect"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMusicPlay"
+        android:name="com.rgssdeveloper.relaxamento.fragments.MusicPlayFragment"
+        android:label="fragment_music_play"
+        tools:layout="@layout/fragment_music_play" >
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="gifUrl"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/arimo_bold</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/italianno</item>
+    </array>
+</resources>

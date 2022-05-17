@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "388643338622",
+    "project_id": "just-breathe-and-relax",
+    "storage_bucket": "just-breathe-and-relax.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388643338622:android:dbd6663ac7bfde99061b2f",
+        "android_client_info": {
+          "package_name": "com.rgssdeveloper.justrelaxbreathe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388643338622-qbhcg8a8r5vjrt1ooi1forbc3bdg2jeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xKyLAn6wd8056ukJBZZGQvfQtdyuxbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388643338622-qbhcg8a8r5vjrt1ooi1forbc3bdg2jeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388643338622:android:a4ff3674a3cd0b1b061b2f",
+        "android_client_info": {
+          "package_name": "com.rgssdeveloper.relaxamento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388643338622-qbhcg8a8r5vjrt1ooi1forbc3bdg2jeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xKyLAn6wd8056ukJBZZGQvfQtdyuxbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388643338622-qbhcg8a8r5vjrt1ooi1forbc3bdg2jeb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

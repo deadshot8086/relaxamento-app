@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Relaxamento</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="subtitle_text">Select a background sound and start.</string>
+</resources>
